@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Нёрдс</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="index-logo">
+        <img src="http://placehold.it/150x100">
+      </div>
+      <div class="conteiner">
+        <nav class="main-navigation">
+          <ul>
+            <li><a href="#">Студия</a></li>
+            <li><a href="#">Клиенты</a></li>
+            <li><a href="#">Магазин</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="user-block">
+        <a class="basket" href="#">Корзина</a>
+      </div>
+    </header>
+    <main class="container">
+      <h1>Магазин готовых шаблонов</h1>
+      <div class="main_filter_1">
+        <div class="filter_cost">
+        <h3>Стоимость</h3>
+        <div class="slider_1">
+        <form action="#" method="post">
+          <label for="min-cost-field">От</label>
+          <input type="text" name="min-cost" id="min-cost-field" value="0">
+        </form>
+        </div>
+        <div class="slider_2">
+        <form action="#" method="post">
+          <label for="max-cost-field">До</label>
+          <input type="text" name="min-price" id="max-cost-field" value="15000">
+        </form>
+        </div>
+        </div>
+        <div class="filter_grid">
+          <h3>Сетка</h3>
+          <input type="radio" name="adaptive" id="adaptive-field" value="a" checked>
+            <label for="adaptive-field">Адаптивная</label>
+          <input type="radio" name="fixable" id="fixable-field" value="b">
+            <label for="fixable-field">Фиксированная</label>
+          <input type="radio" name="stretchable" id="stretchable-field" value="c">
+            <label for="stretchable-field">Резиновая</label>
+        </div>
+        <div class="filter-features">
+          <h3>Особенности</h3>
+          <input type="checkbox" name="feture_1" id="feture_1-field" checked>
+          <label for="feture_1-field">Слайдер</label>
+          <input type="checkbox" name="feture_2" id="feture_2-field">
+          <label for="feture_2-field">Блок преимуществ</label>
+          <input type="checkbox" name="feture_3" id="feture_3-field" checked>
+          <label for="feture_3-field">Новости</label>
+          <input type="checkbox" name="feture_4" id="feture_4-field">
+          <label for="feture_4-field">Галерея</label>
+          <input type="checkbox" name="feture_5" id="feture_5-field">
+          <label for="feture_5-field">Корзина</label>
+        </div>
+        <div class="show_button">
+          <form action="#" method="get">
+            <button type="submit">Показать</button>
+          </form>
+        </div>
+        </div>
+        <div class="main_filter_2">
+          <h3>Сортировать:</h3>
+          <form action="#" method="get">
+            <button type="submit">По цене</button>
+          </form>
+          <form action="#" method="get">
+            <button type="submit">По типу</button>
+          </form>
+          <form action="#" method="get">
+            <button type="submit">По названию</button>
+          </form>
+</*у меня сомнения в правильности использования здесь button. Понимаю, что здесь тоже фильтр, но как его правильно оформить?*/>
+        </div>
+        <div class="cataloge">
+          <ul>
+            <li><a href="#"><img src="http://placehold.it/150x100"></li>
+            <li><a href="#"><img src="http://placehold.it/150x100"></li>
+            <li><a href="#"><img src="http://placehold.it/150x100"></li>
+            <li><a href="#"><img src="http://placehold.it/150x100"></li>
+            <li><a href="#"><img src="http://placehold.it/150x100"></li>
+            <li><a href="#"><img src="http://placehold.it/150x100"></li>
+          </ul>
+        </div>
+        <ul class="navigation">
+          <li><a class="button" href="#">1</a></li>
+          <li><a class="button" href="#">2</a></li>
+          <li><a class="button" href="#">3</a></li>
+          <li><a class="button" href="#">Следующая</a></li>
+        </ul>
+    </main>
+    <footer>
+      <div class="contacts">
+        <span>Nёrds desighn studio<br>
+             191186, Санкт-Петербург,ул.Б.Конюшенная,д.19/8<br>
+             тел.+7 (812) 275-75-75</span>
+        <div class="feedback">
+          <a class="button" href="#"> Напишите нам </a>
+        </div>
+      </div>
+      <div class="links">
+          <a class="social-button social-button-vk" href="#">Вконтакте</a>
+          <a class="social-button social-button-fb" href="#">Фейсбук</a>
+          <a class="social-button social-button-inst" href="#">Инстаграм</a>
+          <div class="discount">
+              <h3> Давайте дружить, это выгодно </h3>
+            <p> Скидка 10% для друзей из социальных сетей.</p>
+          </div>
+      </div>
+    </footer>
+  </body>
+</html>
