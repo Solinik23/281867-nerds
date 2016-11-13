@@ -26,25 +26,25 @@
         <h1>Магазин готовых шаблонов</h1>
       </div>
       <div class="menu">
-        <div class="range-filter">
-          <h3>Стоимость</h3>
-          <div class="range-controls">
-            <div class="scale">
-              <div style="width: 70%;" class="bar">
+        <form action="#" method="get">
+          <div class="range-filter">
+            <h3>Стоимость</h3>
+            <div class="range-controls">
+              <div class="scale">
+                <div style="width: 70%;" class="bar">
+                </div>
+              </div>
+              <div class="toggle min-toggle">
+              </div>
+              <div class="toggle max-toggle">
               </div>
             </div>
-            <div class="toggle min-toggle">
-            </div>
-            <div class="toggle max-toggle">
+            <div class="price-controls">
+              от<input class="min-price" type="text" value="0">
+              до<input class="max-price" type="text" value="15 000">
             </div>
           </div>
-          <div class="price-controls">
-            от<input class="min-price" type="text" value="0">
-            до<input class="max-price" type="text" value="15 000">
-          </div>
-        </div>
-        <div class="features">
-          <form action="#" method="get">
+          <div class="features">
             <fieldset>
               <legend>Сетка</legend>
               <input type="radio" name="adaptive" id="adaptive-field" value="a" checked>
@@ -68,8 +68,8 @@
               <label for="basket-field">Корзина</label>
             </fieldset>
             <button type="submit">Показать</button>
-          </form>
-        </div>
+          </div>
+        </form>
       </div>
       <div class="content">
         <div class="filter">
@@ -83,73 +83,61 @@
           </ul>
         </div>
         <div class="catalog">
-          <div class="popup">
-            <a href="#"><img src="http://placehold.it/150x100"></a>
+          <div><a href="#"><img src="http://placehold.it/150x100"></a></div>
+          <div><a href="#"><img src="http://placehold.it/150x100"></a></div>
+          <div><a href="#"><img src="http://placehold.it/150x100"></a></div>
+          <div><a href="#"><img src="http://placehold.it/150x100"></a></div>
+          <div><a href="#"><img src="http://placehold.it/150x100"></a></div>
+          <div><a href="#"><img src="http://placehold.it/150x100"></a></div>
+        </div>
+        <div class="popup">
+          <div class="pop">
             <h2 class="popup-title">Sedona</h2>
             <p>Информационный сайт для туристов</p>
             <a class="button" href="#">9 900 руб.</a>
           </div>
-          <div class="popup">
-            <a href="#"><img src="http://placehold.it/150x100"></a>
+          <div class="pop">
             <h2 class="popup-title">Sedona</h2>
             <p>Информационный сайт для туристов</p>
             <a class="button" href="#">9 900 руб.</a>
           </div>
-          <div class="popup">
-            <a href="#"><img src="http://placehold.it/150x100"></a>
+          <div class="pop">
             <h2 class="popup-title">Sedona</h2>
             <p>Информационный сайт для туристов</p>
             <a class="button" href="#">9 900 руб.</a>
           </div>
-          <div class="popup">
-            <a href="#"><img src="http://placehold.it/150x100"></a>
+          <div class="pop">
             <h2 class="popup-title">Sedona</h2>
             <p>Информационный сайт для туристов</p>
             <a class="button" href="#">9 900 руб.</a>
           </div>
-          <div class="popup">
-            <a href="#"><img src="http://placehold.it/150x100"></a>
+          <div class="pop">
             <h2 class="popup-title">Sedona</h2>
             <p>Информационный сайт для туристов</p>
             <a class="button" href="#">9 900 руб.</a>
           </div>
-          <div class="popup">
-            <a href="#"><img src="http://placehold.it/150x100"></a>
+          <div class="pop">
             <h2 class="popup-title">Sedona</h2>
             <p>Информационный сайт для туристов</p>
             <a class="button" href="#">9 900 руб.</a>
           </div>
         </div>
-        <ul class="pagination">
-          <li class="active">1</li>
-          <li><a class="button" href="#">2</a></li>
-          <li><a class="button" href="#">3</a></li>
-          <li><a class="button" href="#">Следующая</a></li>
-        </ul>
       </div>
+      <ul class="pagination">
+        <li class="active">1</li>
+        <li><a class="button" href="#">2</a></li>
+        <li><a class="button" href="#">3</a></li>
+        <li><a class="button" href="#">Следующая</a></li>
+      </ul>
     </main>
     <footer>
       <div class="map">
         <img src="http://placehold.it/150x100">
         <div class="contacts">
           <p>Nёrds desighn studio<br>
-          191186, Санкт-Петербург,ул.Б.Конюшенная,д.19/8<br>
-          тел.+7 (812) 275-75-75</p>
-          <div class="feedback">
+            191186, Санкт-Петербург,ул.Б.Конюшенная,д.19/8<br>
+            тел.+7 (812) 275-75-75</p>
             <a class="button" href="#">Напишите нам</a>
-            <div class="feedback_form">
-              <h1>Напишите нам</h1>
-              <form action="#" method="post">
-                <label for="user_name-field">Ваше имя:</label>
-                <input type="text" name="user_name" id="user_name-field" placeholder="Представьтесь, пожалуйста">
-                <label for="user_e-mail-field">Ваш e-mail:</label>
-                <input type="text" name="user_e-mail" id="user_e-mail-field" placeholder="Для отправки ответа">
-                <label for="letter-field">Текст письма:</label>
-                <textarea name="letter" id="letter-field" placeholder="В свободной форме"></textarea>
-                <input type="submit" value="Отправить">
-              </form>
-            </div>
-          </div>
         </div>
       </div>
       <div class="links">
@@ -162,5 +150,23 @@
         <p> Скидка 10% для друзей из социальных сетей.</p>
       </div>
     </footer>
+    <div class="feedback_form">
+      <h1>Напишите нам</h1>
+      <form action="#" method="post">
+        <div class="user_name">
+          <label for="user_name-field">Ваше имя:</label>
+          <input type="text" name="user_name" id="user_name-field" placeholder="Представьтесь, пожалуйста">
+        </div>
+        <div class="user_e-mail">
+          <label for="user_e-mail-field">Ваш e-mail:</label>
+          <input type="text" name="user_e-mail" id="user_e-mail-field" placeholder="Для отправки ответа">
+        </div>
+        <div class="letter">
+          <label for="letter-field">Текст письма:</label>
+          <textarea name="letter" id="letter-field" placeholder="В свободной форме"></textarea>
+        </div>
+        <input type="submit" value="Отправить">
+      </form>
+    </div>
   </body>
 </html>
