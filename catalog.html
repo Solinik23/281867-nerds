@@ -26,19 +26,21 @@
         <h1>Магазин готовых шаблонов</h1>
       </div>
       <div class="menu">
-        <div class="price_range">
+        <div class="range-filter">
           <h3>Стоимость</h3>
-          <div class="slider_min">
-            <form action="#" method="post">
-              <label for="min-price-field">От</label>
-              <input type="submit" name="min-price" id="min-price-field" value="0">
-            </form>
+          <div class="range-controls">
+            <div class="scale">
+              <div style="width: 70%;" class="bar">
+              </div>
+            </div>
+            <div class="toggle min-toggle">
+            </div>
+            <div class="toggle max-toggle">
+            </div>
           </div>
-          <div class="slider_max">
-            <form action="#" method="post">
-              <label for="max-price-field">До</label>
-              <input type="submit" name="max-price" id="max-price-field" value="15000">
-            </form>
+          <div class="price-controls">
+            от<input class="min-price" type="text" value="0">
+            до<input class="max-price" type="text" value="15 000">
           </div>
         </div>
         <div class="features">
@@ -81,44 +83,45 @@
           </ul>
         </div>
         <div class="catalog">
-          <a href="#"><img src="http://placehold.it/150x100"></a>
           <div class="popup">
+            <a href="#"><img src="http://placehold.it/150x100"></a>
             <h2 class="popup-title">Sedona</h2>
             <p>Информационный сайт для туристов</p>
             <a class="button" href="#">9 900 руб.</a>
           </div>
-          <a href="#"><img src="http://placehold.it/150x100"></a>
           <div class="popup">
+            <a href="#"><img src="http://placehold.it/150x100"></a>
             <h2 class="popup-title">Sedona</h2>
             <p>Информационный сайт для туристов</p>
             <a class="button" href="#">9 900 руб.</a>
           </div>
-          <a href="#"><img src="http://placehold.it/150x100"></a>
           <div class="popup">
+            <a href="#"><img src="http://placehold.it/150x100"></a>
             <h2 class="popup-title">Sedona</h2>
             <p>Информационный сайт для туристов</p>
             <a class="button" href="#">9 900 руб.</a>
           </div>
-          <a href="#"><img src="http://placehold.it/150x100"></a>
           <div class="popup">
-            <h2 class="popup-title">Sedona</h2>
-            <p>Информационный сайт для туристов</p>
-            <a class="button" href="#">9 900 руб.</a>
-          </div><a href="#"><img src="http://placehold.it/150x100"></a>
-          <div class="popup">
+            <a href="#"><img src="http://placehold.it/150x100"></a>
             <h2 class="popup-title">Sedona</h2>
             <p>Информационный сайт для туристов</p>
             <a class="button" href="#">9 900 руб.</a>
           </div>
-          <a href="#"><img src="http://placehold.it/150x100"></a>
           <div class="popup">
+            <a href="#"><img src="http://placehold.it/150x100"></a>
+            <h2 class="popup-title">Sedona</h2>
+            <p>Информационный сайт для туристов</p>
+            <a class="button" href="#">9 900 руб.</a>
+          </div>
+          <div class="popup">
+            <a href="#"><img src="http://placehold.it/150x100"></a>
             <h2 class="popup-title">Sedona</h2>
             <p>Информационный сайт для туристов</p>
             <a class="button" href="#">9 900 руб.</a>
           </div>
         </div>
         <ul class="pagination">
-          <li class="active"><a class="button" href="#">1</a></li>
+          <li class="active">1</li>
           <li><a class="button" href="#">2</a></li>
           <li><a class="button" href="#">3</a></li>
           <li><a class="button" href="#">Следующая</a></li>
@@ -134,6 +137,18 @@
           тел.+7 (812) 275-75-75</p>
           <div class="feedback">
             <a class="button" href="#">Напишите нам</a>
+            <div class="feedback_form">
+              <h1>Напишите нам</h1>
+              <form action="#" method="post">
+                <label for="user_name-field">Ваше имя:</label>
+                <input type="text" name="user_name" id="user_name-field" placeholder="Представьтесь, пожалуйста">
+                <label for="user_e-mail-field">Ваш e-mail:</label>
+                <input type="text" name="user_e-mail" id="user_e-mail-field" placeholder="Для отправки ответа">
+                <label for="letter-field">Текст письма:</label>
+                <textarea name="letter" id="letter-field" placeholder="В свободной форме"></textarea>
+                <input type="submit" value="Отправить">
+              </form>
+            </div>
           </div>
         </div>
       </div>
